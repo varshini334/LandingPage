@@ -1,0 +1,141 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .logo {
+    float: left;
+}
+
+header nav ul {
+    list-style: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+    background: #e74c3c;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background: #3498db;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.about, .programs, .testimonials, .blog {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.about img, .testimonial img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.programs .program {
+    margin: 1rem 0;
+}
+
+.blog-post a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media a img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+.newsletter form {
+    margin-top: 1rem;
+}
+
+.newsletter input[type="email"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background: #e74c3c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
